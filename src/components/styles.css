@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Oswald-VariableFont';
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+
+.backColor{
+    background-color: ghostwhite;
+}
+
+/* navigation bar */
+
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #AB6831;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: auto;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .menu-toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/* ==================================== */
+
+.banner{
+    margin-top: 20px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* ===================================== */
+
+.exMenu, .comboMenu, .drinkMenu{
+    margin-top: 5%;
+}
+
+.exMenu h4, .comboMenu h4, .drinkMenu h4, .catagories h4{
+    /* margin-left: -85%; */
+    font-size: 27px;
+    font-family: Oswald-VariableFont;
+}
+
+.cardMenu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+  }
+  
+  .burger-card {
+    margin-left: 3%;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .burger-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .burger-details {
+    flex: 1;
+  }
+  
+  .burger-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .burger-description {
+    color: #777;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .burger-details div{
+    background-color: ghostwhite;
+    border-radius: 8px;
+    padding: 9px;
+    margin: 15% 0 0 0;
+    display: flex;
+  }
+
+  .burger-addicon{
+    margin-left: 75%; 
+    width: 25px;
+    cursor: pointer;
+  }
+
+  
+  .burger-price {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /* combo deals====== */
+
+  .comboMenu .burger-image{
+    width: 190px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .addDisplay{
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .add2Display{
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .addDisplay img{
+    width: 38%;
+    border-radius: 5px;
+  }
+
+  .add2Display img{
+    width: 60%;
+    border-radius: 5px;
+  }
+
+  .addDisplay img:nth-last-of-type(1){
+    margin-left: 10%;
+  }
+
+  /* ============================= */
+
+  .catagories{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .catagories-buttons span{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 2% 0 2%;
+  }
+
+  .catagories-buttons{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    background-color: #E69E0A;
+  }
+
+  .catagories-buttons button{
+    margin-top: 1%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: Oswald-VariableFont;
+    font-weight: 900;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .catagories-options{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ /* ============================= */
+
+ .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-weight: 900;
+  }
+  
+  .back-to-top.show {
+    opacity: 1;
+  }
+  
+  .back-to-top:hover {
+    background-color: #555;
+  }
+  
+  /* ============================= */
+
+  .footer {
+    background-color: #AB6831;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 9%;
+  }
+
+  .footer h4{
+    font-size: 30px;
+    margin-bottom: 3%;
+  }
+
+  .links{
+    margin-bottom: 2%;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 18px;
+  }
+  
+  .footer-icons {
+    margin-bottom: 20px;
+  }
+  
+  .icons img , .icons img:nth-of-type(1) {
+    width: 25px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 5%;
+      }
+    
+      .menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+      }
+    
+      .menu.active {
+        display: flex;
+      }
+    
+      .menu.active li {
+        margin: 10px 0;
+      }
+
+      .menu li a {
+        font-size: 15px;
+      }
+
+    /* ======================== */
+
+    .banner{
+        margin-top: 50px;
+    }
+
+    /* ========================= */
+    .exMenu h4, .comboMenu h4{
+        margin:auto 0;
+        margin: 15% 0 12%;
+    }
+
+    .cardMenu {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    .burger-card {
+      width: 95%;
+      margin-left: 3%;
+    }
+
+    .burger-addicon{
+        margin-left: 85%; 
+        width: 25px;
+    }
+
+    /* ================= */
+    .addDisplay{
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .addDisplay img{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .add2Display {
+      margin-top: 10%;
+    }
+
+    .add2Display img{
+      width: 95%;
+      border-radius: 5px;
+    }
+
+    .addDisplay img:nth-last-of-type(1){
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+
+    /* =============================== */
+    
+    .catagories-buttons{
+        margin-top: 10%;
+      }
+
+    .catagories-options{
+        margin-top: 10%;
+    }
+
+    .catagories-buttons button{
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        font-family: Oswald-VariableFont;
+        font-weight: 900;
+        font-size: 19px;
+        cursor: pointer;
+        color: white;
+      }
+
+    .catagories-buttons span{
+        font-size: 30px;
+        margin: 0 0% 0 0%;
+    }
+
+    /* ============================= */
+    .bottom-nav {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      
+      .nav-link {
+        margin-top: 10px;
+      }
+}
