@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/BurgerJoint-Ecommerce-Website/static/css/main.673b03df.css",
+    "main.js": "/BurgerJoint-Ecommerce-Website/static/js/main.ad980530.js",
+    "static/js/787.8b4425db.chunk.js": "/BurgerJoint-Ecommerce-Website/static/js/787.8b4425db.chunk.js",
+    "static/media/c5.png": "/BurgerJoint-Ecommerce-Website/static/media/c5.6ae60b948d3bb58ab84e.png",
+    "static/media/ban4.jpg": "/BurgerJoint-Ecommerce-Website/static/media/ban4.96dc53791a800a171667.jpg",
+    "static/media/c4.png": "/BurgerJoint-Ecommerce-Website/static/media/c4.4e2794aeebf946aed4fd.png",
+    "static/media/banner1.jpg": "/BurgerJoint-Ecommerce-Website/static/media/banner1.63b12c18ad1c16a770ea.jpg",
+    "static/media/ban2.jpg": "/BurgerJoint-Ecommerce-Website/static/media/ban2.b2961de098d76ea7432e.jpg",
+    "static/media/ban3.jpg": "/BurgerJoint-Ecommerce-Website/static/media/ban3.aac3270dc9aafad68027.jpg",
+    "static/media/c1.png": "/BurgerJoint-Ecommerce-Website/static/media/c1.add94da50171ca428ff2.png",
+    "static/media/c2.png": "/BurgerJoint-Ecommerce-Website/static/media/c2.b399054acb9cfab21886.png",
+    "static/media/Oswald-VariableFont_wght.ttf": "/BurgerJoint-Ecommerce-Website/static/media/Oswald-VariableFont_wght.46d7853f0185f6bf0c93.ttf",
+    "static/media/c3.png": "/BurgerJoint-Ecommerce-Website/static/media/c3.3b8fabf1df98b70dd905.png",
+    "static/media/d2.png": "/BurgerJoint-Ecommerce-Website/static/media/d2.5f11eeb897a57844d5bb.png",
+    "static/media/d1.png": "/BurgerJoint-Ecommerce-Website/static/media/d1.7a9cea3f532f92e12a5e.png",
+    "static/media/d4.png": "/BurgerJoint-Ecommerce-Website/static/media/d4.dd062d32511e09fd0343.png",
+    "static/media/d3.png": "/BurgerJoint-Ecommerce-Website/static/media/d3.63b492991f1e6c73dbc6.png",
+    "static/media/d5.png": "/BurgerJoint-Ecommerce-Website/static/media/d5.9aade69e7c71447cb288.png",
+    "static/media/1.jpg": "/BurgerJoint-Ecommerce-Website/static/media/1.abacd7e82917b6dabe88.jpg",
+    "static/media/4.jpg": "/BurgerJoint-Ecommerce-Website/static/media/4.f54a8b24002e6aba47d1.jpg",
+    "static/media/2.jpg": "/BurgerJoint-Ecommerce-Website/static/media/2.5cb059cebd7cd1f40f6b.jpg",
+    "static/media/6.jpg": "/BurgerJoint-Ecommerce-Website/static/media/6.d1686fe500832ddbfb17.jpg",
+    "static/media/5.jpg": "/BurgerJoint-Ecommerce-Website/static/media/5.a2292b05ec06ffb13ae0.jpg",
+    "static/media/3.jpg": "/BurgerJoint-Ecommerce-Website/static/media/3.bf2ac448c0879a32bf94.jpg",
+    "static/media/7.jpg": "/BurgerJoint-Ecommerce-Website/static/media/7.727cd5f3fe36e46f7391.jpg",
+    "static/media/9.jpg": "/BurgerJoint-Ecommerce-Website/static/media/9.30a4f3e74d23690a374e.jpg",
+    "index.html": "/BurgerJoint-Ecommerce-Website/index.html",
+    "main.673b03df.css.map": "/BurgerJoint-Ecommerce-Website/static/css/main.673b03df.css.map",
+    "main.ad980530.js.map": "/BurgerJoint-Ecommerce-Website/static/js/main.ad980530.js.map",
+    "787.8b4425db.chunk.js.map": "/BurgerJoint-Ecommerce-Website/static/js/787.8b4425db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.673b03df.css",
+    "static/js/main.ad980530.js"
+  ]
+}
