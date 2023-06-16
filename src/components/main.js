@@ -222,6 +222,7 @@ const Main = () => {
                 </div>
             </div>
 
+{/* sides */}
             <div className='drinkMenu'>
                 <h4>Side's</h4>
 
