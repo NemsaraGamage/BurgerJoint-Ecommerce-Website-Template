@@ -319,6 +319,11 @@
         margin-top: 50px;
     }
 
+    .banner img{
+      width: 95%;
+      height: 15vh;
+    }
+
     /* ========================= */
     .exMenu h4, .comboMenu h4{
         margin:auto 0;
@@ -326,7 +331,7 @@
     }
 
     .cardMenu {
-        width: 90%;
+        width: 85%;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -339,7 +344,7 @@
     }
 
     .burger-addicon{
-        margin-left: 85%; 
+        margin-left: 83%; 
         width: 25px;
     }
 

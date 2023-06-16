@@ -32,6 +32,11 @@ import des2 from '../components/pics/des2.jpg'
 import des3 from '../components/pics/des3.jpg'
 import des4 from '../components/pics/des4.jpg'
 import des5 from '../components/pics/des5.jpg'
+import sid1 from '../components/pics/sid1.png'
+import sid2 from '../components/pics/sid2.png'
+import sid3 from '../components/pics/sid3.jpg'
+import sid4 from '../components/pics/sid4.png'
+import sid5 from '../components/pics/sid5.png'
 
 import face from '../components/icons/face.png'
 import insta from '../components/icons/insta.png'
@@ -217,71 +222,72 @@ const Main = () => {
                 </div>
             </div>
 
-            <div className='addDisplay'>
-                <img src={ban2}></img>
-                <img src={ban3}></img>   
-            </div>
-
             <div className='drinkMenu'>
-                <h4>Drinks</h4>
+                <h4>Side's</h4>
 
                 <div className='cardMenu'>
                     <div className="burger-card">
-                        <img src={d1} className="burger-image" />
+                        <img src={sid1} className="burger-image" />
                         <div className="burger-details">
-                            <h2 className="burger-name">Pepsi</h2>
-                            <p className="burger-description">Soft Drink</p>
+                            <h2 className="burger-name">Large Curly Fries</h2>
+                            <p className="burger-description">Crisply Curly spicy fries <br></br> <br></br><br></br></p>
                              <div>
-                                <p className="burger-price">$10</p>
+                                <p className="burger-price">$2.00</p>
                                 <img className="burger-addicon" src={add}></img>
                             </div>
                         </div>
                     </div>
                     <div className="burger-card">
-                        <img src={d2} className="burger-image" />
+                        <img src={sid2} className="burger-image" />
                         <div className="burger-details">
-                            <h2 className="burger-name">7 Up</h2>
-                            <p className="burger-description">Soft Drink</p>
+                            <h2 className="burger-name">Golden Chicken Bites</h2>
+                            <p className="burger-description">Crispy breaded Chicken bites cooked to a golden crisp <br></br> <br></br></p>
                              <div>
-                                <p className="burger-price">$1.00</p>
+                                <p className="burger-price">$1.50</p>
                                 <img className="burger-addicon" src={add}></img>
                             </div>
                         </div>
                     </div>
                     <div className="burger-card">
-                        <img src={d3} className="burger-image" />
+                        <img src={sid3} className="burger-image" />
                         <div className="burger-details">
-                            <h2 className="burger-name">Mirinda</h2>
-                            <p className="burger-description">Soft Drink</p>
+                            <h2 className="burger-name">Jalapeno Poppers</h2>
+                            <p className="burger-description">4 crispy pieces of delicious poppers stuffed with spicy jalapeno & tasty cheddar cheese</p>
                              <div>
-                                <p className="burger-price">$1.00</p>
+                                <p className="burger-price">$1.50</p>
                                 <img className="burger-addicon" src={add}></img>
                             </div>
                         </div>
                     </div>
                     <div className="burger-card">
-                        <img src={d4} className="burger-image" />
+                        <img src={sid4} className="burger-image" />
                         <div className="burger-details">
-                            <h2 className="burger-name">Mountain Dew</h2>
-                            <p className="burger-description">Soft Drink</p>
+                            <h2 className="burger-name">Loaded Fries</h2>
+                            <p className="burger-description">Natual-cut french fries loaded with Cheddar Cheese, Sante Fe sauce and Jalapeno coins.</p>
                              <div>
-                                <p className="burger-price">$1.00</p>
+                                <p className="burger-price">$2.00</p>
                                 <img className="burger-addicon" src={add}></img>
                             </div>
                         </div>
                     </div>
                     <div className="burger-card">
-                        <img src={d5} className="burger-image" />
+                        <img src={sid5} className="burger-image" />
                         <div className="burger-details">
-                            <h2 className="burger-name">Water</h2>
-                            <p className="burger-description">Water</p>
+                            <h2 className="burger-name">Garden Salad</h2>
+                            <p className="burger-description">Fresh Iceberg lettuce, shredded cheddar cheese, tomato your choice of dressing.</p>
                              <div>
-                                <p className="burger-price">$0.99</p>
+                                <p className="burger-price">$1.26</p>
                                 <img className="burger-addicon" src={add}></img>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+            <div className='addDisplay'>
+                <img src={ban2}></img>
+                <img src={ban3}></img>   
             </div>
 
             <div id='cata' className='catagories'>
