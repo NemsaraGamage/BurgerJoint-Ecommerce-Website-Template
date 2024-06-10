@@ -80,10 +80,14 @@ const Main = () => {
             {/* <!-- navigation bar --> */}
             <div className="navbar">
                 <a href="#" className="logo">BurgerJoint</a>
-                <div className="menu-toggle" onClick={toggleMenu}>&#9776;</div>
+                <div className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <ul className={menuOpen ? 'menu active' : 'menu'}>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#cata">Catagories</a></li>
+                    <li><a href="#cata">Categories</a></li>
                     <li><a href="#">About Us</a></li>
                 </ul>
             </div>
